@@ -22,3 +22,4 @@ tape("d3.event is a getter for d3Selection.event", function(test) {
 for (var dependency in require("../package.json").dependencies) {
   testExports(dependency);
 }
+
